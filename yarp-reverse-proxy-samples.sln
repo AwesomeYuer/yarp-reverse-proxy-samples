@@ -3,20 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31804.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E275568-3767-43AC-B51B-FA75C0B5CE91}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-		global.json.txt = global.json.txt
-		NuGet.config.txt = NuGet.config.txt
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleServer", "samples\SampleServer\SampleServer.csproj", "{11D098B2-7116-4F37-817A-E496B8F15C76}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{149C61A2-D9F8-49B9-9F9B-3C953FEF53AA}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{BC344A50-8F81-4762-9F4B-12714693144B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "docfx", "docs\docfx\docfx.csproj", "{7F6D4710-07D1-49D0-8EAE-675A3A9B50E3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseProxy.Auth.Sample", "samples\ReverseProxy.Auth.Sample\ReverseProxy.Auth.Sample.csproj", "{354F2755-A090-4735-A657-726FB6DA92CD}"
 EndProject
@@ -75,14 +64,6 @@ Global
 		{11D098B2-7116-4F37-817A-E496B8F15C76}.Release|Any CPU.Build.0 = Release|Any CPU
 		{11D098B2-7116-4F37-817A-E496B8F15C76}.Release|x64.ActiveCfg = Release|Any CPU
 		{11D098B2-7116-4F37-817A-E496B8F15C76}.Release|x64.Build.0 = Release|Any CPU
-		{7F6D4710-07D1-49D0-8EAE-675A3A9B50E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F6D4710-07D1-49D0-8EAE-675A3A9B50E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F6D4710-07D1-49D0-8EAE-675A3A9B50E3}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{7F6D4710-07D1-49D0-8EAE-675A3A9B50E3}.Debug|x64.Build.0 = Debug|Any CPU
-		{7F6D4710-07D1-49D0-8EAE-675A3A9B50E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F6D4710-07D1-49D0-8EAE-675A3A9B50E3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F6D4710-07D1-49D0-8EAE-675A3A9B50E3}.Release|x64.ActiveCfg = Release|Any CPU
-		{7F6D4710-07D1-49D0-8EAE-675A3A9B50E3}.Release|x64.Build.0 = Release|Any CPU
 		{354F2755-A090-4735-A657-726FB6DA92CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{354F2755-A090-4735-A657-726FB6DA92CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{354F2755-A090-4735-A657-726FB6DA92CD}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -193,7 +174,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{11D098B2-7116-4F37-817A-E496B8F15C76} = {149C61A2-D9F8-49B9-9F9B-3C953FEF53AA}
-		{7F6D4710-07D1-49D0-8EAE-675A3A9B50E3} = {BC344A50-8F81-4762-9F4B-12714693144B}
 		{354F2755-A090-4735-A657-726FB6DA92CD} = {149C61A2-D9F8-49B9-9F9B-3C953FEF53AA}
 		{F2547357-FB2F-4944-842F-D33D1E7A17FC} = {149C61A2-D9F8-49B9-9F9B-3C953FEF53AA}
 		{D6B72704-603C-4C6F-8DFA-BB820B1C6CC0} = {149C61A2-D9F8-49B9-9F9B-3C953FEF53AA}
