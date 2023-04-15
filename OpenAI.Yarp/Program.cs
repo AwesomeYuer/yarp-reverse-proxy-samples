@@ -1,6 +1,11 @@
 var builder = WebApplication.CreateBuilder(args);
 
 builder
+    .Configuration
+    .AddJsonFile("appsettings.yarp.json")
+    .Build();
+
+builder
     .Services
     .AddReverseProxy()
     .LoadFromConfig
